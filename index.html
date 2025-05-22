@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Musenga</title>
+  <link rel="stylesheet" href="port2.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">FORSTR</div>
+    <nav>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button class="btn-cv">Download CV</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="intro">
+      <h2>Hello, I'm</h2>
+      <h1>JEAN PAUL MUSENGAMANA</h1>
+      <span>Student at UR</span>
+      <p>I am passionate about acting as a web developer.</p>
+    </div>
+    <div class="profile-pic">
+      <img src="web_im.jpg" alt="Profile picture">
+    </div>
+  </section>
+
+  <section class="services">
+    <h2>What I do</h2>
+    <div class="cards">
+      <div class="card">I am a student who is passionate in 
+        web development
+      </div>
+      <div class="card">Website Designer</div>
+    </div>
+    <button class="order-now">Order Now</button>
+  </section>
+
+  <footer class="text-center text-sm text-gray-500 p-4">
+    <p class="created-on">Created: May 13, 2025</p>
+    <p>&copy; 2025 Pau MUSENGA. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.querySelector('.btn-cv').addEventListener('click', function () {
+      alert("Your CV will be downloaded soon!");
+    });
+    document.querySelector('.order-now').addEventListener('click', function () {
+      alert("Thanks for your interest! We’ll get in touch soon.");
+    });
+  </script>
+</body>
+</html>
